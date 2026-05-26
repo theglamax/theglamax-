@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- ПОЛНАЯ ИНДЕКСАЦИЯ В GOOGLE по запросу #theglamaxлето -->
+    <title>#theglamaxлето — приглашение на прогулку по Москве</title>
+    <meta name="description" content="москва летом прекрасна. мы парочка простых и молодых ребят. проживём яркую историю. theglamax приглашает. нажми подтвердить.">
+    <meta name="keywords" content="#theglamaxлето, theglamax, приглашение, москва, лето, прогулка, twinby, яркая история">
+    <meta name="author" content="theglamax">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://t.me/theglamax">
+    
+    <!-- Open Graph для соцсетей -->
+    <meta property="og:title" content="#theglamaxлето — приглашение">
+    <meta property="og:description" content="москва летом прекрасна. проживём яркую историю. theglamax ждёт.">
+    <meta property="og:type" content="website">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000000;
+            font-family: 'Courier New', 'Fira Code', 'VT323', monospace;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* ЧИСТЫЙ ЧЁРНЫЙ ЭКРАН + ЗЕЛЁНЫЙ ТЕКСТ */
+        .terminal {
+            max-width: 820px;
+            width: 100%;
+            background: #000000;
+            border: 1px solid #00ff41;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+        }
+
+        /* МИГАЮЩИЙ КУРСОР */
+        .cursor {
+            display: inline-block;
+            width: 12px;
+            height: 1.2rem;
+            background-color: #00ff41;
+            vertical-align: middle;
+            margin-right: 8px;
+            animation: blink 1s step-end infinite;
+            box-shadow: 0 0 5px #00ff41;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* КОМАНДНАЯ СТРОКА */
+        .command {
+            color: #00ff41;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #1a4d1a;
+            padding-bottom: 10px;
+        }
+
+        /* ХЭШТЕГ ДЛЯ ИНДЕКСАЦИИ */
+        .hashtag {
+            color: #00ff41;
+            font-size: 1.9rem;
+            font-weight: bold;
+            margin: 20px 0 15px 0;
+        }
+
+        .hashtag span {
+            background: #00ff41;
+            color: #000;
+            padding: 0 10px;
+        }
+
+        /* ТВОЙ ТЕКСТ — БЕЗ ПРАВОК */
+        .invite {
+            color: #33ff77;
+            font-size: 1.28rem;
+            line-height: 1.65;
+            margin: 30px 0;
+            background: #031003;
+            padding: 1.6rem;
+            border-left: 5px solid #00ff41;
+        }
+
+        .invite p {
+            margin: 14px 0;
+        }
+
+        .highlight {
+            color: #00ff41;
+            text-shadow: 0 0 4px #00ff41;
+        }
+
+        /* КНОПКА ПОДТВЕРДИТЬ */
+        .btn {
+            background: #000;
+            border: 2px solid #00ff41;
+            color: #00ff41;
+            font-family: 'Courier New', monospace;
+            font-size: 1.7rem;
+            font-weight: bold;
+            padding: 16px 25px;
+            width: 100%;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            transition: 0.2s;
+            margin: 20px 0 10px 0;
+            box-shadow: 0 0 8px #00ff41;
+        }
+
+        .btn:hover {
+            background: #00ff41;
+            color: #000;
+            box-shadow: 0 0 28px #00ff41;
+        }
+
+        /* СТАТУС ВНИЗУ */
+        .status {
+            margin-top: 32px;
+            font-size: 0.7rem;
+            color: #1d792d;
+            text-align: center;
+            border-top: 1px solid #1a4d1a;
+            padding-top: 18px;
+        }
+
+        .blink-soft {
+            animation: blinkSoft 2s infinite;
+        }
+
+        @keyframes blinkSoft {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+
+        @media (max-width: 650px) {
+            .terminal { padding: 1.2rem; }
+            .hashtag { font-size: 1.3rem; }
+            .invite { font-size: 1rem; padding: 1rem; }
+            .btn { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="terminal">
+    <div class="command">
+        <span class="cursor"></span> root@theglamax:~$ ./invite --summer --moscow
+    </div>
+
+    <div class="hashtag">
+        > <span>#theglamaxлето</span> <span class="blink-soft">_</span>
+    </div>
+
+    <!-- ТВОЙ ТЕКСТ СЛОВО В СЛОВО -->
+    <div class="invite">
+        <p>москва летом прекрасна,</p>
+        <p>а мы — парочка простых и молодых ребят.</p>
+        <p>можем насладиться вечерней москвой</p>
+        <p>и прожить какую-то <strong class="highlight">яркую историю</strong>.</p>
+        <p>✦</p>
+        <p>если ты готова к действиям —</p>
+        <p>нажми <span style="background:#00ff41; color:#000; padding:0 6px;">подтвердить</span> и напиши мне.</p>
+        <p>➜ theglamax ждёт сигнала</p>
+    </div>
+
+    <!-- КНОПКА ПОДТВЕРДИТЬ -> TELEGRAM -->
+    <button class="btn" id="confirmBtn">> ПОДТВЕРДИТЬ</button>
+
+    <div class="status">
+        [ connected :: Москва · лето · действие ]
+    </div>
+</div>
+
+<script>
+    const btn = document.getElementById('confirmBtn');
+    
+    btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        btn.style.transform = 'scale(0.97)';
+        btn.style.background = '#00ff41';
+        btn.style.color = '#000';
+        setTimeout(() => {
+            window.location.href = 'https://t.me/theglamax';
+        }, 70);
+    });
+</script>
+</body>
+</html>
