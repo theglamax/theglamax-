@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://theglamax.github.io/НАЗВАНИЕ_РЕПОЗИТОРИЯ/sitemap.xml
+Sitemap: https://theglamax.github.io/theglamax-/sitemap.xml
